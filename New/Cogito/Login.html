@@ -1,0 +1,81 @@
+<html lang="en-US" xml:lang="en-US">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login - Cogito Journal</title>
+        <link rel="icon" href="cogito.png">
+        <link rel="stylesheet" href="css.css" type="text/css">
+        <style>
+            .boddy {
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+            }
+            .login {
+                background-color: white;
+                padding: 20px;
+                border-radius: 5px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                width: 300px;
+            }
+            .login img {
+                width: 100px;
+                margin-bottom: 30px;
+            }
+            .login h2 {
+                margin-bottom: 20px;
+                text-align: center;
+            }
+            .login label {
+                display: block;
+                margin-bottom: 5px;
+            }
+            .login input[type="email"],
+            .login input[type="password"] {
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 10px;
+                border: 1px solid #ddd;
+                border-radius: 3px;
+            }
+            .login input[type="submit"] {
+                background-color: #007bff;
+                color: white;
+                border: none;
+                padding: 10px;
+                border-radius: 3px;
+                cursor: pointer;
+                width: 100%;
+            }
+            .login input[type="submit"]:hover {
+                background-color: #0056b3;
+            }
+            .login .register-link {
+                text-align: center;
+                margin-top: 10px;
+            }
+        </style>
+    </head>
+    <div class="boddy">
+        <body>
+            <div class="login">
+                <img src="cogito.png" alt="Cogito Journal Logo">
+                <h2>Login CogITo</h2>
+                <form action="Home.html" method="POST">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                    
+                    <input type="submit" value="Login">
+                </form>
+            </div>
+        </body>
+    </div>
+</html>

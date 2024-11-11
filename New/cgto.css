@@ -1,0 +1,90 @@
+.mainLayout{
+    background: lightgrey;
+    height: 5000px;
+    width: 100%;
+    
+   
+}
+.mainLayout .layout{
+    background: white;
+    height:5000px;
+    width: 95%;
+    margin:auto
+}
+.mainLayout .layout .header{
+    background: rgb(46, 154, 227);
+    width: 100%;
+    height: 150px;
+    
+}
+.mainLayout .layout .header #h1{
+    padding-left:60px ;
+    padding-top: 60px;
+    color: azure;
+    text-shadow: 3px 3px 5px rgb(2, 40, 136);
+    font-size: 50px;
+
+}
+
+.mainLayout .layout .menu{
+    
+    /*background:rgb(117, 197, 249);*/
+    background: rgb(46, 154, 227);
+    padding-left: 50px;
+    height: 50px;
+    border-bottom: thin solid rgb(182, 182, 182);
+    
+}
+.mainLayout .layout .menu ul{
+    padding:0;
+    margin:0;
+    overflow:hidden;
+}
+
+.mainLayout .layout .menu ul li{
+    float:left;
+    list-style-type: none;
+    padding:10px;
+    font-size: 25px; 
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: yellow;
+}
+.mainLayout .layout .badan{
+    height: 4500px;
+    background:white;
+}
+.mainLayout .layout .badan .content{
+    width: 72%;
+    height: 100%;
+    /*background: goldenrod;*/
+    float: left;
+    border-right: 10px;
+    
+}
+.mainLayout .layout .badan .content iframe{
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+.mainLayout .layout .badan .sidebar{
+    width: 25%;
+    height: 100%;
+    border-left: thin solid rgb(182, 182, 182);
+    /*background: gray;*/
+    float: left;
+}
+.mainLayout .layout .footer{
+    border-top: thin solid rgb(182, 182, 182);
+    background: rgb(201, 207, 201);
+    width: 100%;
+    height: 300px;
+    
+}
+.clear{
+    clear:both
+}

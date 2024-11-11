@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pembayaran Kopi Stengah</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+    <h1>Kopi Stengah</h1>
+    <p class="description">Nikmati kopi terbaik dengan pembayaran mudah dan cepat!</p>
+    <form id="paymentForm">
+        <label for="name">Nama Pelanggan:</label>
+        <input type="text" id="name" name="name" placeholder="Masukkan nama Anda" required>
+
+        <label for="amount">Jumlah Pembayaran (Rp):</label>
+        <input type="number" id="amount" name="amount" placeholder="Masukkan jumlah pembayaran" required min="0">
+
+        <button type="button" class="btn-pay" onclick="submitPayment()">Bayar Sekarang</button>
+    </form>
+    <p class="note">*Pastikan jumlah dan data sudah benar sebelum pembayaran.</p>
+</div>
+
+<script src="java.js"></script>
+</body>
+</html>

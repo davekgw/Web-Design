@@ -1,0 +1,81 @@
+/* Mengatur font dan warna utama */
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #faf3e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container styling */
+.container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    width: 380px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+.container:hover {
+    transform: translateY(-5px);
+}
+
+/* Heading styling */
+h1 {
+    color: #4b2e1a;
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+.description {
+    color: #6f4e37;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Label and input styling */
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #4b2e1a;
+    font-size: 15px;
+}
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 18px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #4b2e1a;
+}
+input[type="text"]::placeholder, input[type="number"]::placeholder {
+    color: #bbb;
+}
+
+/* Button styling */
+.btn-pay {
+    background-color: #4b2e1a;
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+.btn-pay:hover {
+    background-color: #6f4e37;
+}
+
+/* Note styling */
+.note {
+    font-size: 13px;
+    color: #999;
+    margin-top: 12px;
+}

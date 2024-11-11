@@ -1,0 +1,9 @@
+div{background-color: green}
+i {font-style: normal}
+.mhs {border: black solid 1; color: gray}
+.nama {font-weight: bold; font: 20pt; font-family: Arial;}
+.alamat{font-size: 30; font-style: italic;}
+#mhs01 {font: bold 20 Arial; color: rgb(0, 255, 98)}
+#mhs02 {font: bold 20 Arial; color: red}
+h1 i {color: navy}
+div.mhs .alamat b {color: green}

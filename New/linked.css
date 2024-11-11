@@ -1,0 +1,15 @@
+h1{color: greenyellow;}
+p{font-family: Arial, Verdana, "Times New Roman"; font-size: 14pt; color: goldenrod;}
+
+.bg{background-color: green;}
+
+<!--TAG-->
+i {font-style: normal}
+
+<!--CLASS-->
+.mhs {border: black solid 1; color: gray}
+.nama{color: black;}
+
+<!--COLOR-->
+#mhs01 {color: red}
+#mhs02 {color: rgb(238, 255, 0)}
